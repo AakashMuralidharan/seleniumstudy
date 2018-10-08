@@ -1,8 +1,7 @@
 package javabasicprograms;
-
+import com.sun.org.apache.xpath.internal.SourceTree;
 
 import java.util.Scanner;
-
 public class hw {
         public static void main(String[] args) {
             System.out.println("hello world");
@@ -19,8 +18,6 @@ public class hw {
             r=in.nextDouble();
             si=p*n*r/100;
             formula(si);
-
-
         }
         public static void formula(double si)
         {
